@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* popup css start */
+.popup-form{
+    width: 30%;
+    height: 58%;
+    border: 2px solid rgb(148, 146, 146);
+    border-radius: 7px;
+    position: fixed;
+    background-image: url(popupimg2.jpg);
+    background-size: cover;
+    top: 25%;
+    left: 34%;
+    display: none;
+}
+.popup-form h2{
+    text-align: center;
+    margin-top: 4%;
+    color: rgb(165, 114, 114);
+}
+#cancel-icon{
+    color: white;
+    position: fixed;
+    top: 14%;
+    left: 63%;
+    /* margin-left: 96%;
+    margin-top: -19%; */
+}
+#input1{
+    width: 95%;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid rgb(202, 196, 196);
+    padding: 3%;
+    outline: none;
+    margin-left: 2.5%;
+    margin-top: 11%;
+}
+#input1:focus-visible{
+    border: 1px solid rgb(163, 107, 107);
+    box-shadow: 0px 1px 10px rgba(0,0,0, 0.9);
+}
+#input2{
+    width: 95%;
+    border-radius: 5px;
+    font-size: 20px;
+    border:  1px solid rgb(202, 196, 196);
+    padding: 3%;
+    outline: none;
+    margin-left: 2.5%;
+    margin-top: 7%;
+}
+#input2:focus-visible{
+    border: 1px solid rgb(145, 77, 92);
+    box-shadow: 0px 1px 10px rgba(0,0,0, 0.9);
+}
+#popup-submit{
+    margin-top: 9%;
+    width: 94%;
+    margin-left: 2.7%;
+    padding: 10px;
+    font-size: 25px;
+    background-color: rgb(189, 98, 98);
+}
+#popup-submit:hover{
+    background-color: red;
+}
+/* popup media quary  */
+@media screen and (max-width:1280px){
+    .popup-form{
+        height: 44%;
+    }
+    #cancel-icon{
+        color: white;
+        position: fixed;
+        top: 17%;
+        left: 63%;
+        /* margin-left: 96%;
+        margin-top: -19%; */
+    }
+   }
+   @media screen and (max-width:1050px){
+    .popup-form{
+        height: 48%;
+    }
+    #input1{
+        margin-top: 5%;
+    }
+    #cancel-icon{
+        color: white;
+        position: fixed;
+        top: 15%;
+        left: 63%;
+        /* margin-left: 96%;
+        margin-top: -19%; */
+    }
+   }
+   @media screen and (max-width:992px){
+    .popup-form{
+        width: 60%;
+        height: 30%;
+        position: fixed;
+        top: 18.5%;
+        left: 15%;
+    }
+    #cancel-icon{
+        color: white;
+        position: fixed;
+        top: 15%;
+        left: 73%;
+        /* margin-left: 96%;
+        margin-top: -19%; */
+    }
+   }
+   @media screen and (max-width:850px){
+    .popup-form{
+        width: 70%;
+        height: 40%;
+        position: fixed;
+        top: 19%;
+        left: 13%;
+       }
+    #cancel-icon{
+        color: white;
+        position: fixed;
+        top: 15%;
+        left: 80%;
+        /* margin-left: 96%;
+        margin-top: -19%; */
+    }
+   }
+   @media screen and (max-width:540px){
+    .popup-form{
+        width: 70%;
+        height: 44%;
+        position: fixed;
+        top: 19%;
+        left: 13%;
+       }
+   }
+
+   @media screen and (max-width:480px){
+   .popup-form{
+    width: 70%;
+    height: 35%;
+    position: fixed;
+    top: 19%;
+    left: 13%;
+   }
+    #input1{
+        margin-top: 8%;
+    }
+    #cancel-icon{
+        color: white;
+        position: fixed;
+        top: 15.3%;
+        left: 80%;
+        /* margin-left: 96%;
+        margin-top: -19%; */
+    }
+   }
+   @media screen and (max-width:375px){
+    .popup-form{
+        width: 70%;
+        height: 42%;
+        position: fixed;
+        top: 19%;
+        left: 13%;
+       }
+   }
+   /* popup media quary end  */
+/* popup css end  */
+.body{
+  background-color: rgb(61, 56, 56);    
+}
+/* navbar css start */
+.navbar{
+    background-color:rgb(75, 69, 69) ;
+    font-size: 22px;
+}
+span{
+    color: red;
+}
+.navbarbutton a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.navbarbutton:hover{
+    background-color: rgb(185, 56, 56);
+}
+/* navbar css end  */
+
+/* home page start  */
+
+#homepageimg{
+    width: 100%;
+    height: 520px;
+    background-image: url(homeimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.homepagepage{
+    color: red;
+    font-size: 18px;
+    margin-top: 10%;
+    margin-left: 10.5%;
+}
+.homepageline{
+    color: white;
+    margin-left: 10%;
+    word-spacing: 1.5px;
+    word-spacing: 2px
+}
+.homepagebutton{
+    background-color: rgb(241, 8, 8);
+    border-radius: 5px;
+    padding: 5px;
+    border-bottom-right-radius: 28%;
+    margin-left: 10.5%;
+    margin-top: 0.5%;
+}
+.homepagebutton a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.homepagebutton a:hover{
+    color: white;
+}
+
+
+/* media quary homepage  */
+@media screen and (max-width:992px){
+    .homepagepage{
+        margin-top: 15%;
+    }
+}
+@media screen and (max-width:480px){
+    .homepagepage{
+        margin-top: 40%;
+    }
+    .homepagebutton{
+        margin-top: 4%;
+    }
+    .homepageline{
+    margin-top: 3%;
+    }
+}
+/* media quary homepage end  */
+/* home page end  */
+
+/* CHOOSE US PAGE START */
+.chooseusimg:hover{
+    box-shadow: 0px 0px 7px 1px rgb(194, 163, 163);
+}
+.reason{
+    color: red;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+.choose{
+    color: white;
+    margin-top: -1%;
+    margin-left: 2%;
+    
+}
+.choose a{
+    text-decoration: none;
+    color: white;
+}
+.coachs{
+    color: white;
+    display: inline;
+    margin-left: 2%;
+}
+.chooseicon{
+    color: rgb(194, 74, 74);
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 1.8%;
+}
+.partner{
+    color: rgb(97, 83, 83);
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+/* CHOOSE US PAGE END */
+
+/* gym features css start  */
+.gymfeaturetitle{
+    position: relative;
+    
+}
+.gymfeaturetitle a{
+    text-decoration: none;
+    padding: 3px;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+}
+.gymfeaturetitle a:hover{
+  color: white;
+}
+.gymfeaturetitle:before{
+    content:'';
+    width: 40%;
+    height: 2px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -2.6%;
+    background: rgb(107, 101, 101);
+}
+.gymfeaturetitle:after{
+    content:'';
+    width: 40%;
+    height: 2px;
+    display: block;
+    position:absolute;
+    top: 50%;
+    right: -2.5%;
+    background: rgb(107, 101, 101);
+}
+.featureheading{
+    margin-left: 10%;
+    color: rgb(117, 104, 104);
+}
+.featureheading a{
+    text-decoration: none;
+    color: rgb(117, 104, 104);
+}
+.featureheading a:hover{
+    color: rgb(117, 104, 104);
+}
+.featuresupplementline{
+    margin-left: -5%;
+}
+.featurebutton{
+    margin-left: 28%;
+    font-size: 25px;
+    background-color: rgb(179, 66, 66);
+    border-radius: 5px;
+    border-bottom-right-radius: 15px;
+}
+.featurebutton a{
+    text-decoration: none;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 4px;
+}
+.featurebutton a:hover{
+    color: white;
+}
+/* gym features css  end */
+
+
+/* trainer css start  */
+.trainerfirst{
+    border-radius: 1%;
+    border: 2px solid rgb(75, 72, 72);
+    background-color: rgb(83, 76, 76);
+}
+.imgpadding{
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.trainerlogo{
+    display: inline;
+    float: right;
+    margin-top:-9%;
+    margin-right: 3%;
+}
+.trainerfacebook:hover{
+    border: 2px solid white;
+    border-radius: 20%;
+    background-color: rgb(117, 57, 57);
+}
+.trainerjoinusbutton{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding: 3px;
+    font-size: 25px;
+    background-color: rgb(179, 162, 162);
+    border-radius: 5px;
+    border-bottom-right-radius: 15px;
+}
+.trainerjoinusbutton a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    text-align: center;
+}
+.trainerjoinusbutton:hover{
+    background-color: rgb(124, 57, 57);
+}
+.trainerjoinusbutton a:hover{
+    color: black;
+}
+
+
+/* contact us css start  */
+.contactusbackgroundimg{
+    /* background-color: rgb(83, 76, 76);  */
+    background-image: url(gym.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+}
+.allcontactustext{
+    color:white;
+    font-size: 20px;
+}
+.contactusaddresstext{
+    color:white;
+    font-size: 20px;
+}
+.contactussubmitbutton{
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 30px;
+    padding: 3px;
+    border-radius: 5px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(179, 162, 162);
+    border: 2px solid rgb(44, 30, 30);
+}
+.contactussubmitbutton a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2%;
+}
+.contactussubmitbutton:hover{
+    background-color: rgb(124, 57, 57);
+}
+.contactussubmitbutton a:hover{
+    color: black;
+}
+/* contack us css end  */
